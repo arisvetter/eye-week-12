@@ -8,7 +8,8 @@ module top(
 one_hot my_one_hot(
     .w(sw[0]),
     .clk(btnB),
-    .Y(led[0])
+    .Y(led[0]),
+    .state(led[2:6])
 );
 
 binary my_binary(
