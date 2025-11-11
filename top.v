@@ -15,5 +15,6 @@ one_hot my_one_hot(
 binary my_binary(
     .w(sw[0]),
     .clk(btnB),
-    .Y(led[1])
+    .Y(led[1]),
+    .state(led[7:9])
 );
